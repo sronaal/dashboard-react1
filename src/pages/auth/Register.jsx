@@ -14,7 +14,7 @@ export const Register = () => {
   const [showPassword, setShowPassword] = useState(false);
 
   return (
-    <div className="bg-[#1E1F25] p-8 rounded-xl  shadow-2xl">
+    <div className="bg-[#1E1F25] p-4 rounded-xl  shadow-2xl">
     <h1 className="text-3xl uppercase font-bold tracking-[5px] mb-8">
       Crear <span className="text-[#C600EB] border-b py-2">Cuenta</span>
     </h1>

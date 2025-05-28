@@ -1,10 +1,9 @@
 import React from 'react'
 
-function Home() {
+function  Sidebar() {
   return (
-    <div className="bg-white p-4 m-4 rounded-lg shadow-md">
-    <h1 className="text-2xl font-bold">Admin Dashboard</h1>
-    <p className="mt-2 text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dictum urna non aliquet ultrices. Cras a lacus malesuada, pretium est semper, viverra lacus. Aenean ultrices feugiat malesuada. Fusce cursus placerat libero, sed tincidunt tortor scelerisque eget. Quisque consequat velit ac massa vulputate efficitur. Nulla laoreet lectus in nulla interdum, non scelerisque libero hendrerit. Duis fermentum sed ante eget mollis. Integer feugiat lacus nec leo blandit, ut lacinia ante convallis. Nullam tincidunt pellentesque nunc rhoncus vestibulum. Phasellus mollis maximus turpis, ut laoreet urna scelerisque quis. Phasellus elementum rhoncus porttitor. Pellentesque dolor augue, sodales eget vestibulum non, lacinia porta ante.
+    <div className='h-[100vh] overflow-y-scroll scroll-hidden'>
+        <p className="mt-2 text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dictum urna non aliquet ultrices. Cras a lacus malesuada, pretium est semper, viverra lacus. Aenean ultrices feugiat malesuada. Fusce cursus placerat libero, sed tincidunt tortor scelerisque eget. Quisque consequat velit ac massa vulputate efficitur. Nulla laoreet lectus in nulla interdum, non scelerisque libero hendrerit. Duis fermentum sed ante eget mollis. Integer feugiat lacus nec leo blandit, ut lacinia ante convallis. Nullam tincidunt pellentesque nunc rhoncus vestibulum. Phasellus mollis maximus turpis, ut laoreet urna scelerisque quis. Phasellus elementum rhoncus porttitor. Pellentesque dolor augue, sodales eget vestibulum non, lacinia porta ante.
 
 Phasellus eu porttitor est. Maecenas suscipit bibendum nisl id ornare. Nunc euismod fermentum lorem nec semper. Nam commodo, ante vitae laoreet auctor, mi urna faucibus metus, id fermentum nibh eros ornare nibh. Duis eu accumsan lectus. Quisque at egestas velit, eget mattis mi. Sed ut hendrerit ligula. Integer faucibus in tortor in hendrerit. Aenean gravida pharetra erat. Vestibulum pharetra porttitor posuere. Donec at tempus arcu. Curabitur euismod diam non ultrices scelerisque. Phasellus pellentesque laoreet ante ac accumsan. In at dapibus turpis. Nullam auctor metus ultrices quam dignissim, at molestie lorem porta.
 
@@ -41,8 +40,8 @@ Etiam sit amet augue et tellus euismod tincidunt. Phasellus libero sem, aliquam 
 Donec suscipit libero nec gravida tempor. Mauris non mattis nisl, id molestie sapien. Sed porttitor neque at lobortis ullamcorper. Maecenas sed aliquet mi, nec bibendum lorem. Etiam ac scelerisque tellus, vitae consequat nisi. Donec purus nisi, varius a urna id, fermentum lobortis dui. Curabitur imperdiet metus eget diam sollicitudin viverra.
 
 Nunc a tristique nisi. Sed mattis, tortor non auctor suscipit, lectus velit luctus massa, sed ultrices mi nisl tempus ante. Etiam hendrerit magna neque, eget ornare leo lobortis sit amet. Fusce in tellus vehicula, rutrum dui id, pellentesque ex. Maecenas mi velit, hendrerit eget nisi vitae, pellentesque faucibus mi. Sed molestie semper nunc in commodo. Vestibulum sit amet mattis urna. Maecenas dapibus mi sed mauris ultrices dapibus. Aenean efficitur fringilla justo. Maecenas auctor lorem venenatis tellus vestibulum, eget ultricies nibh finibus. Aliquam eu condimentum mi. Mauris id ullamcorper risus, sed suscipit nunc. Nullam odio mauris, interdum quis dictum placerat, eleifend a lacus. Nam sollicitudin ipsum mollis risus semper, vitae dapibus quam bibendum.</p>
-  </div>
+    </div>
   )
 }
 
-export default Home
+export default  Sidebar
