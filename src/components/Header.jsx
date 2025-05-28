@@ -2,7 +2,7 @@ import React from 'react'
 
 function Header() {
   return (
-    <header className='bg-blue-500 h-[10vh]'>Header</header>
+    <header className='h-[7vh] md:[10vh] border-b border-gray-800'>Header</header>
   )
 }
 
