@@ -67,7 +67,7 @@ function Login() {
         </div>
       </form>
       <div className="flex flex-col gap-4 items-center  text-gray-100">
-        <Link to="/" className="hover:text-[#C600EB] transition-color duration-300" >
+        <Link to="/auth/olvide-password" className="hover:text-[#C600EB] transition-color duration-300" >
           ¿Olvidaste tu contraseña?
         </Link>
         <span className="flex items-center gap-2">
