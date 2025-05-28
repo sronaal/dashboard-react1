@@ -28,7 +28,7 @@ function Login() {
           <RiMailFill className="absolute top-1/2 -translate-y-1/2 left-2 text-gray-400" />
           <input
             type="email"
-            className="py-3 pl-8 pr-4  bg-[#131517] w-full outline-none rounded-lg text-gray-200"
+            className="py-3 pl-8 pr-4  bg-[#131517] w-full outline-none rounded-lg text-gray-200  focus:border-[#C600EB] focus:ring-2 focus:ring-[#C600EB]"
             placeholder="Correo electronico"
           />
         </div>
@@ -37,7 +37,7 @@ function Login() {
           <RiLockFill className="absolute top-1/2 -translate-y-1/2 left-2 text-gray-400" />
           <input
             type={showPassword ? "text" : "password"}
-            className="py-3 pl-8 pr-4  bg-[#131517] w-full outline-none rounded-lg text-gray-200"
+            className="py-3 pl-8 pr-4  bg-[#131517] w-full outline-none rounded-lg text-gray-200 focus:border-[#C600EB] focus:ring-2 focus:ring-[#C600EB]" 
             placeholder="Contraseña"
           />
           {showPassword ? (
