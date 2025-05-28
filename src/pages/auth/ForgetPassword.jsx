@@ -1,14 +1,9 @@
 import {
     RiMailFill,
-    RiLockFill,
-    RiEyeFill,
-    RiEyeOffFill,
   } from "react-icons/ri";
-  import { useState } from "react";
   import { Link } from "react-router-dom";
   
   function ForgetPassword() {
-    const [showPassword, setShowPassword] = useState(false);
   
     return (
       <div className="bg-[#1E1F25] p-8 rounded-xl  shadow-2xl">
