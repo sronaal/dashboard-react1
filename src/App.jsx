@@ -9,6 +9,8 @@ import LayoutAdmin from "./layout/LayoutAdmin";
 import LayoutAuth from "./layout/LayoutAuth";
 import Home from "./pages/admin/Home";
 import Chat from "./pages/admin/Chat";
+
+
 function App() {
   return (
     <>
@@ -25,6 +27,7 @@ function App() {
               <Route index element={<Home />} />
               <Route path="chat" element={<Chat />} />
             </Route>
+
             <Route path="*" element={<Error404 />} />
           </Routes>
         </BrowserRouter>
